@@ -1,0 +1,6650 @@
+{
+ "convention": "M(k)_{D D'} = sum_v w(D,D',v) exp(i k.v/2), v = 2*(midpoint(D',x) - midpoint(D,0)); second-order action per cell = (1/2) c^T M c on squared-length amplitudes",
+ "count": 302,
+ "couplings": [
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-3/2",
+   "weight_40digits": "-1.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -2,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    2,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -2,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    2,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -2,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -2,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    2,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1/2",
+   "weight_40digits": "-0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    2,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -2,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    2,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -2,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -2,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    2,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -2,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-3/2",
+   "weight_40digits": "-1.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1/2",
+   "weight_40digits": "-0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -2
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    2,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -2,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -2,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    2,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -2,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    2,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1",
+   "weight_40digits": "-1.0"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-3/2",
+   "weight_40digits": "-1.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1/2",
+   "weight_40digits": "-0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-3/2",
+   "weight_40digits": "-1.5"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    -1,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -2,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    2,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "-1/2",
+   "weight_40digits": "-0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    -1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    1,
+    0
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    -1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    1.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "weight_exact": "1/2",
+   "weight_40digits": "0.5"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    -1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    1.0,
+    0.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    2,
+    0,
+    1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -2,
+    0,
+    -1
+   ],
+   "weight_exact": "-1/4",
+   "weight_40digits": "-0.25"
+  },
+  {
+   "D": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "Dprime": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "two_times_midpoint_separation": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  },
+  {
+   "D": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "Dprime": [
+    0.0,
+    1.0,
+    0.0,
+    1.0
+   ],
+   "two_times_midpoint_separation": [
+    -1,
+    -1,
+    0,
+    -1
+   ],
+   "weight_exact": "1/4",
+   "weight_40digits": "0.25"
+  }
+ ]
+}

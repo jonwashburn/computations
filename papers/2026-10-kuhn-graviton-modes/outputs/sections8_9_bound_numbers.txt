@@ -1,0 +1,87 @@
+==============================================================================
+Sections 8 and 9: the conditional bound and the candidate spacing (axis-time branch)
+==============================================================================
+
+-- 8.1  SME coefficients of the axis-time branch -----------------------------
+   [PASS] s^(6) = 2 kappa a^2 = (1 + A) a^2/12 (eq:s6)
+   [PASS] F_psi(6) = (d-2)(d-3)(2d-3)/(4(2d^2-7d+9)) at d = 6 is 9/13
+   [PASS] s00/a^2 = 4 sqrt(pi)/15 = 0.472654 (printed 0.4727)
+   [PASS] s40/a^2 = sqrt(pi)/45 = 0.0393879 (printed 0.03939)
+   [PASS] s4,+-4/a^2 = sqrt(5/14) s40 = 0.0235388 (printed 0.02354)
+   [PASS] real cos(4 phi) harmonic: sqrt(5/7) s40 = 0.0332888 (printed 0.03329)
+   [PASS] s44/s40 = sqrt(5/14) = 0.597614 (printed 0.5976)
+   [PASS] mean of s^(6) over directions is (1 + 3/5) a^2/12 = 2 a^2/15
+   [PASS] A(n) = 3/5 + (4 sqrt(pi)/15)[Y40 + sqrt(5/14)(Y44 + Y4,-4)] at five directions: 9.86e-32
+   [PASS] on an axis: 3/5 + (4 sqrt(pi)/15)(3/(2 sqrt(pi))) = 1
+   [PASS] minimum of s^(6) is a^2/9 on the body diagonal (A = 1/3)
+
+-- 8.3  The bound from the Fly's Eye event (iron, r = 0.1, L = 10 Mpc) -------
+   [PASS] E_f = E/560 (eV) = 5.71429e+17 (printed 5.7e17)
+   [PASS] s^(6)(p) bound (GeV^-2), eq:sdir = 5.75938e-32 (printed 5.8e-32)
+   [PASS] s00 = sqrt(4 pi) s bound (GeV^-2) = 2.04165e-31 (printed 2.0e-31)
+   [PASS] a bound (GeV^-1), eq:bound = 7.19961e-16 (printed 7.2e-16)
+   [PASS] a bound (m) = 1.42068e-31 (printed 1.42e-31)
+   [PASS] a bound / l_P = 8789.93 (printed 8.8e3)
+   [PASS] 1/a bound (GeV) = 1.38896e+15 (printed 1.39e15)
+   [PASS] axis-direction bound (m) = 1.15998e-31 (printed 1.16e-31)
+   [PASS] isotropic-only benchmark from s00 alone (m) = 1.2969e-31 (printed 1.3e-31)
+
+-- Table 5: excluded spacings a_thr / l_P along an axis (A = 1) --------------
+   [PASS] iron, r = 0.1: E_f (eV) = 5.71429e+17 (printed 5.7e17)
+   [PASS] iron, r = 0.1: a_thr/l_P, 10 Mpc = 7176.95 (printed 7.2e3)
+   [PASS] iron, r = 0.1: a_thr/l_P, 100 Mpc = 4035.9 (printed 4.0e3)
+   [PASS] proton, r = 0.1: E_f (eV) = 3.2e+19 (printed 3.2e19)
+   [PASS] proton, r = 0.1: a_thr/l_P, 10 Mpc = 6.26053 (printed 6.3)
+   [PASS] proton, r = 0.1: a_thr/l_P, 100 Mpc = 3.52055 (printed 3.5)
+   [PASS] proton, E_f = 1e20 eV: E_f (eV) = 1.0e+20 (printed 1.0e20)
+   [PASS] proton, E_f = 1e20 eV: a_thr/l_P, 10 Mpc = 0.852361 (printed 0.85)
+   [PASS] proton, E_f = 1e20 eV: a_thr/l_P, 100 Mpc = 0.479318 (printed 0.48)
+   [PASS] proton, r = 1: E_f (eV) = 3.2e+20 (printed 3.2e20)
+   [PASS] proton, r = 1: a_thr/l_P, 10 Mpc = 0.11133 (printed 0.11)
+   [PASS] proton, r = 1: a_thr/l_P, 100 Mpc = 0.0626053 (printed 0.063)
+   iron row with E_f = E/560 = 5.71429e+17 eV: 7176.95 (10 Mpc), 4035.9 (100 Mpc)
+   iron row with the rounded E_f = 5.7e17 eV: 7208.46 (10 Mpc), 4053.61 (100 Mpc)
+   The bound (eq:bound) and Section 9 numbers above match the printed values only with E_f = E/560;
+   with 5.7e17 eV they would read 1.43e-31 m, 1.38e15 GeV and 1.87e7.
+   [PASS] body-diagonal factor (2/(4/3))^(1/2) = 1.22474 (printed 1.22)
+   [PASS] r = 0.31 for E_f = 1e20 eV = 0.3125 (printed 0.31)
+   [PASS] Planck spacing excluded by factor (proton r = 1, 10 Mpc) = 8.98233 (printed 9)
+   [PASS] Planck spacing excluded by factor (proton r = 1, 100 Mpc) = 15.9731 (printed 16)
+
+-- 8.4  What a Planck-scale spacing predicts ---------------------------------
+   [PASS] s^(6) minimum at a = l_P (GeV^-2) = 7.45426e-40 (printed 7.5e-40)
+   [PASS] s^(6) maximum at a = l_P (GeV^-2) = 1.11814e-39 (printed 1.1e-39)
+   [PASS] factor inside eq:sdir = 5.15086e+7 (printed 5e7)
+   [PASS] attenuation energy, axis, 10 Mpc (eV) = 9.12759e+19 (printed 9.1e19)
+   [PASS] attenuation energy, body diagonal, 10 Mpc (eV) = 1.02487e+20 (printed 1.02e20)
+   [PASS] attenuation energy, axis, 100 Mpc (eV) = 6.569e+19 (printed 6.6e19)
+   [PASS] 1 - v for a 1e20 eV proton = 4.40177e-23 (printed 4.4e-23)
+   [PASS] graviton wave number where the axis phase speed drops below that proton (GeV) = 2.80596e+8 (printed 2.8e8)
+   [PASS] |l| a <= E_f a ~ 1e-8 at a Planck spacing (E_f = 1e11 GeV): 8.19e-9
+   [PASS] relative higher-order correction (l a)^2 is of order 1e-16: 6.71e-17
+   [PASS] k = 2 pi x 100 Hz / c (1/m) = 2.09585e-6 (printed 2e-6)
+   [PASS] defect kappa k^2 a^2 at a Planck spacing is of order 1e-82 (axis kappa = 1/12): 9.56e-83
+
+-- 9  The bit spacing a = sqrt(4 ln 2) l_P -----------------------------------
+   [PASS] sqrt(4 ln 2) = 1.66511 (printed 1.665)
+   [PASS] a (m) = 2.69124e-35 (printed 2.6912e-35)
+   [PASS] E_lat = E_P/sqrt(4 ln 2) (GeV) = 7.33219e+18 (printed 7.3322e18)
+   [PASS] s^(6) minimum (GeV^-2) = 2.06676e-39 (printed 2.067e-39)
+   [PASS] s^(6) maximum (GeV^-2) = 3.10014e-39 (printed 3.100e-39)
+   [PASS] factor below the directional limit = 1.85778e+7 (printed 1.86e7)
+   [PASS] attenuation energy, axis, 10 Mpc (eV) = 6.82052e+19 (printed 6.82e19)
+   [PASS] attenuation energy, body diagonal, 10 Mpc (eV) = 7.65825e+19 (printed 7.66e19)
+   [PASS] attenuation energy, axis, 100 Mpc (eV) = 4.90863e+19 (printed 4.91e19)
+   [PASS] Kuhn triangle areas 1/2, sqrt2/2, sqrt3/2, 1 for legs (1,1),(1,2),(1,3),(2,2)
+
+-- 9.1  Photon and graviton propagation (collinear energy balance) -----------
+   [PASS] v_ph,gamma1 - v_ph,g = a^2 k^2/24
+   [PASS] gamma-1 excess energy = (a^2 p^3/24) y (y^2 + 3Ay - 3A) (eq:photon-emission)
+   [PASS] y_* = (sqrt(9A^2 + 12A) - 3A)/2 is the positive root
+   [PASS] y_*(1/3) = (sqrt5 - 1)/2 and y_*(1) = (sqrt21 - 3)/2
+   [PASS] y_* increases with A on [1/3, 1], so it lies between those endpoints
+   [PASS] y_*(1/3) = 0.618034 (printed 0.6180)
+   [PASS] y_*(1) = 0.791288 (printed 0.7913)
+   [PASS] gamma-2 (= the axis-time law) excess = (a^2 p^3/8)(1 + A) y (y - 1) (eq:photon-2)
+
+Sections 8 and 9: the conditional bound and the candidate spacing (axis-time branch): 66 checks, 0 failed

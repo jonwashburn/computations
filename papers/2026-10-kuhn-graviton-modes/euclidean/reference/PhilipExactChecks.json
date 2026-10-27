@@ -1,0 +1,62 @@
+{
+  "started_unix": 1789501244.4793904,
+  "ended_unix": 1789501253.372803,
+  "sympy": "1.12",
+  "mpmath": "1.2.1",
+  "table_sha256": "c2faba52960f1cf4de7b8bb4c2e0da599b2335dc6b7f76743ed90a95157e1b31",
+  "checks": {
+    "Philip_squared_edge_factorization_all_100_entries": true,
+    "constraint_identity": true,
+    "detW": "-64*z0*z1*z2*z3",
+    "gauge_map_y_equals_minus_VinvCsharp_xi": true,
+    "hypotenuse_row_column_all_momenta": true,
+    "M0_characteristic_polynomial": "lambda**11*(lambda + 2)**3*(lambda + 8)",
+    "printed_F_beta_formula_is_correct": false,
+    "corrected_F_beta_formula_is_correct": true,
+    "spherical_harmonic_identity": true
+  },
+  "numbers": {
+    "s_bound_GeV_minus2": "5.75940007851707223925537e-32",
+    "isotropic_s00_bound": "2.04165416961462321198317e-31",
+    "direction_independent_a_m": "1.42068026901919317236801e-31",
+    "axis_a_m": "1.15998058224565324935624e-31",
+    "axis_rows_a_over_lP": [
+      [
+        "7176.96429645408791552431",
+        "4035.90361331181315393986"
+      ],
+      [
+        "6.26053918951943766295302",
+        "3.52055990424047456614148"
+      ],
+      [
+        "0.852362237037683962900358",
+        "0.479318509917981642612145"
+      ],
+      [
+        "0.111329879364641815132455",
+        "0.0626053918951943766295302"
+      ]
+    ],
+    "planck_loss_energies_eV": [
+      "91276018145207359799.669",
+      "102486927711602405582.029",
+      "65690042547698922253.9015"
+    ],
+    "anchored_loss_energies_eV": [
+      "68205278301927688646.2454",
+      "76582541273426700905.6699",
+      "49086361616953699640.5598"
+    ],
+    "anchored_a_m": "2.69124142941370060328162e-35",
+    "anchored_E_GeV": "7332191688316443450.21972",
+    "anchored_s_range": [
+      "2.0667591538320288690697e-39",
+      "3.10013873074804330360455e-39"
+    ],
+    "s00_per_a2": "0.472654360241470940612845",
+    "s40_per_a2": "0.0393878633534559117177371",
+    "s44_per_a2": "0.0235387505703021178512871"
+  },
+  "scope": "Exact algebra and numerical substitutions; not a formal proof or matter-coupling derivation."
+}

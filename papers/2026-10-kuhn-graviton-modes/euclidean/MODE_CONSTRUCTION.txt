@@ -1,0 +1,95 @@
+Lattice modes displayed by the Quantum Gravity Lab
+16 September 2026
+
+Scope and observable
+The page displays fractional edge-length perturbations of the free,
+linearized Euclidean Kuhn Regge symbol, continued with p4=i omega.
+Spatial positions are a FIXED reference lattice. Color is signed normalized
+edge strain, not a displacement of those vertices or an embedding of the
+curved metric in Euclidean 3-space. The overall weak-field amplitude is
+arbitrary. The displayed edge strains depend on the gauge specified below.
+The two-dimensional mode space modulo vertex displacements is physical;
+individual edge colors are not gauge-invariant curvature measurements.
+
+Construction from the paper's exact factorization
+Use a=c=1, p_j=k n_j, omega=2 asinh(sqrt(sum_j sin^2(p_j/2))), p4=i omega.
+Let z_i=exp(i p_i), q_i=2 sin(p_i/2), f_i=z_i-1, t_i=1-z_i^-1.
+Then f_i=i q_i exp(i p_i/2), t_i=i q_i exp(-i p_i/2).
+Choose real orthonormal a,b perpendicular to the spatial q vector.
+Take H+=(aa^T-bb^T) or Hx=(ab^T+ba^T), padded with zero time components.
+Both have trace zero and H q=0. Define the paper's trace-reversed coordinates
+
+  y_ii=H_ii,
+  y_ij=exp(i(p_i+p_j)/2) H_ij   (i != j).
+
+Its constraint obeys, identically,
+
+  (C y)_i = f_i y_ii + sum_(j != i) t_j y_ij
+          = i exp(i p_i/2) sum_j q_j H_ij = 0.
+
+The scalar branch L=0 and the paper's Wsharp R W=-(L V-Csharp C)/2
+therefore give R(Wy)=0. Apply the exact edge map
+
+  X_i=z_i (beta y)_i,
+  X_ij=2 y_ij-z_i z_j sum_(r not in {i,j}) y_rr,
+  beta=I-J/2.
+
+As the diagonal trace is zero here, beta y=y. For the four eliminated
+body diagonals restore X_B=2 M_BA X_A, since M_BB=-I/2 exactly. Set the
+decoupled hypercube diagonal amplitude to zero. This produces a full
+15-component null vector in the vertex phase convention of the paper.
+The implementation evaluates every edge equation at each parameter update
+and rejects a result with relative residual above 1e-10.
+
+Why these are physical modes rather than vertex-displacement modes
+For a nonzero spatial momentum, omega>0 and f4,t4 are nonzero. In y
+coordinates a vertex displacement xi has, up to an overall sign,
+
+  y_ii=2 t_i xi_i - sum_r t_r xi_r,
+  y_ij=f_j xi_i+f_i xi_j.
+
+Our modes have yi4=0, y44=0 and sum_(i=1..3) yii=0. The off-diagonal
+time conditions imply xi_i=-f_i xi4/f4. On L=-sum_i f_i t_i=0 this gives
+sum_r t_r xi_r=2 t4 xi4 and sum_(i=1..3) yii=-4 t4 xi4.
+The trace condition forces xi4=0, hence every xi_i=0. Thus our two
+independent tensors intersect the gauge subspace only at zero and represent
+the two propagating modes. At k=0 this argument does not apply; the page
+explicitly labels the pattern as a static uniform-strain limit.
+
+What the colors mean
+For edge D starting at integer spatial vertex x, the linear length strain is
+
+  delta ell_D / ell_D = epsilon Re[(X_D / (2 |D|^2)) exp(i p.x-i omega t)].
+
+Each polarization is divided by its largest spatial strain amplitude,
+so the displayed scale runs from -1 to +1. epsilon is arbitrary and small;
+the color scale does not set a physical wave amplitude. Blue denotes
+contraction and orange extension. All seven nonzero spatial edge classes
+in {0,1}^3 are drawn, including face and body diagonals. The '+' and 'cross'
+labels name this specified basis, approaching ordinary continuum TT
+polarizations as k tends to zero. They need not be transverse to ordinary
+p at finite momentum: the constraint uses lattice differences q and phases.
+The spatial amplitudes pair with their complex conjugates under reversal
+of spatial momentum and frequency, so taking the real part gives a real
+spatial strain field. The verification script checks this pairing too.
+
+Wave-vector and group-velocity arrows
+The white arrow is n=p/|p|, the direction normal to phase fronts. The blue
+arrow has components vg_j=sin(p_j)/(2 sqrt(S(1+S))), with
+S=sum_j sin^2(p_j/2). Its length represents |vg|/c. It can point in a
+different direction from n; it vanishes at the spatial-zone corner.
+c is the model's long-wavelength speed, not a separately derived photon
+dispersion law. Time is normalized by a/c. At k=0 the group speed is
+reported as its directional limit c.
+
+Verification and source
+verify_modes.py independently assembles the MIDPOINT symbol directly from
+the rational coupling table and converts the displayed VERTEX amplitudes
+using exp(-i p.D/2). It checks both modes, non-gauge independence, zero and
+zone limits, and rejects corrupted fields. Run python3 verify_modes.py.
+The reference receipt is reference/ModeChecks.json. The derivation above
+is mathematical reasoning using the paper's verified factorization, not a
+new formalization or a derivation of nonlinear Lorentzian evolution.
+Source paper: Lattice Graviton Dispersion on the Kuhn Triangulation,
+Washburn and Beltracchi, proposed 15 September 2026 revision, exact branch
+and axis-time sections. The original paper programs remain unchanged.

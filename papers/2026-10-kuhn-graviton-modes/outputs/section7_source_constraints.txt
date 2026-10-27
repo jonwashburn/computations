@@ -1,0 +1,31 @@
+==============================================================================
+Section 7: scalar sources and the null-space conditions (Euclidean)
+==============================================================================
+
+-- eq:scalar-flat-metric on the unit Kuhn simplex ----------------------------
+   [PASS] G_ij = min(i,j)
+   [PASS] E = G^{-1} is the printed tridiagonal matrix
+   [PASS] V_sigma = sqrt(det G)/24 = 1/24
+   [PASS] the same G holds on all 24 chain simplices
+
+-- First obstruction: phi = lambda (x1 + x2) and the hypercube diagonal ------
+   [PASS] phi is lattice harmonic (eq:scalar-field-equation with identity links)
+   [PASS] B_sigma on the simplex 0,e1,e1+e2,... is the printed matrix
+   [PASS] delta G for the hypercube diagonal is the printed matrix
+   [PASS] eq:scalar-edge-variation agrees with direct differentiation of S_m on all 24 simplices
+   [PASS] dS_m/da_{1111} = -kappa_m lambda^2/12 summed over the 24 simplices of the hypercube: -1/12
+   [PASS] dA_h/da_{1111} = 0 for every hinge (Theorem 3.1), so the gravitational side is 0
+
+-- Second obstruction: phi = lambda (x1^3 - 3 x1 x2^2), vertex p = (0,1,0,0), xi = e1 - e3 
+   [PASS] phi is lattice harmonic
+   [PASS] 120 simplices contain p: 120
+   [PASS] g^T J = -18 kappa_m lambda^2 (eq:obstruction-gauge): -18
+   [PASS] the same contraction vanishes at the origin
+   [PASS] every hypercube diagonal at p has D.xi = 0
+   [PASS] moving the vertex in the embedding and differentiating S_m gives the same -18: -18
+
+-- Proposition 7.1 inputs: both vectors are null vectors of the Euclidean Hessian 
+   [PASS] (H g)_e = 0 on every edge e near p: vertex displacements are null vectors: 180 edges
+   [PASS] the hypercube-diagonal row and column of every Euclidean cell vanish: H n_1111 = 0
+
+Section 7: scalar sources and the null-space conditions (Euclidean): 18 checks, 0 failed

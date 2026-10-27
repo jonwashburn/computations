@@ -1,0 +1,67 @@
+==============================================================================
+Appendix A: the Lorentzian Kuhn cell and its symbol (kappa = 1)
+==============================================================================
+
+-- Section 6.1: the Lorentzian simplex on g_L = I - J ------------------------
+   [PASS] g_L^{-1} = I - J/3 (eq:direct-metric)
+   [PASS] every edge D has squared interval n(1 - n), n = number of ones
+   [PASS] the four axis edges are null
+   [PASS] chain Gram matrix G_ij = min(i,j) - ij (Appendix A): [[0, -1, -2, -3], [-1, -2, -4, -6], [-2, -4, -6, -9], [-3, -6, -9, -12]]
+   det G (four-simplex) = -3
+   [PASS] every triangle is timelike: det G_h < 0: {(0, 1, 2): -1, (0, 1, 3): -4, (0, 1, 4): -9, (0, 2, 3): -4, (0, 2, 4): -12, (0, 3, 4): -9, (1, 2, 3): -1, (1, 2, 4): -4, (1, 3, 4): -4, (2, 3, 4): -1}
+   [PASS] all five tetrahedra are nondegenerate
+   [PASS] every hinge normal plane is spacelike (positive-definite normal Gram)
+   interior angles by hinge (Lorentzian | Euclidean):
+      hinge 012: pi/6 | pi/4
+      hinge 013: pi/2 | pi/2
+      hinge 014: pi/3 | pi/3
+      hinge 023: pi/2 | pi/2
+      hinge 024: pi/2 | pi/2
+      hinge 034: pi/3 | pi/3
+      hinge 123: 2*pi/3 | pi/2
+      hinge 124: pi/2 | pi/2
+      hinge 134: pi/2 | pi/2
+      hinge 234: pi/6 | pi/4
+   [PASS] end triangles 012 and 234 of the chain have angle pi/6 (Euclidean pi/4)
+   [PASS] middle triangle 123 has angle 2 pi/3 (Euclidean pi/2)
+   [PASS] angles around each of the 50 hinge classes sum to 2 pi (zero deficits): simplices per hinge: {6: 20, 4: 30}
+   [PASS] Euclidean check: the same 50 sums are 2 pi at kappa = 0
+
+-- Appendix A: the Hessian cell C = 2R/sqrt(3) -------------------------------
+   [PASS] single-simplex Schlaefli identity sum_h A_h d(theta_h) = 0 at the flat simplex
+   [PASS] the cell is symmetric (mixed second derivatives commute)
+   [PASS] R = (sqrt 3/2) C is rational
+   [PASS] 32R from the geometry equals the printed matrix (eq:lorentz-cell), all 100 entries
+   32R from the geometry, rows in slot order 01,02,03,04,12,13,14,23,24,34:
+        2  -2   1   0   0   3  -2  -6   2   2
+       -2  -4   4  -1   6  -6   2   3  -2   2
+        1   4   0  -2  -6   0   2  -3   2  -2
+        0  -1  -2   2   2   2  -2   2  -1   0
+        0   6  -6   2  -6   6  -3   0   3  -6
+        3  -6   0   2   6   0   0   6  -6   3
+       -2   2   2  -2  -3   0   0  -6   4   1
+       -6   3  -3   2   0   6  -6  -6   6   0
+        2  -2   2  -1   3  -6   4   6  -4  -2
+        2   2  -2   0  -6   3   1   0  -2   2
+   cell C entry (01,01) = 2R/sqrt3 = sqrt(3)/24
+   [PASS] each of the 24 simplices, computed from its own coordinates, has the same cell in slot order
+
+-- Appendix A: assembly rule and the 15 x 15 symbol M_L ----------------------
+   [PASS] assembly from the printed cell rule 2R equals the per-simplex geometric assembly
+   nonzero couplings (D, D', v) of M_L = 631
+   [PASS] coefficients of v and -v agree, so every entry is a cosine sum (eq:lorentz-assembly)
+   [PASS] M_L is symmetric
+   [PASS] the printed cosine formula reproduces every entry of the exponential assembly
+   [PASS] gauge identity M_L(q) g_xi(q) = 0 for all q, xi = e_1..e_4 (lattice Bianchi): {'xi=e1': True, 'xi=e2': True, 'xi=e3': True, 'xi=e4': True}
+   [PASS] unlike the Euclidean case, the hypercube-diagonal row of M_L is not zero
+
+-- Self-test at kappa = 0 against the published Euclidean coupling table -----
+   nonzero Euclidean couplings from this code = 302
+   [PASS] 302 nonzero couplings (Appendix B)
+   [PASS] weight census -3/2 (4), -1 (6), -1/2 (4), 1/2 (48), 1/4 (96), -1/4 (144): {Fraction(1, 4): 96, Fraction(-1, 4): 144, Fraction(-1, 1): 6, Fraction(1, 2): 48, Fraction(-1, 2): 4, Fraction(-3, 2): 4}
+   [PASS] census by squared lengths (1,1):52 (1,2):96 (1,3):48 (2,2):54 (2,3):48 (3,3):4: {(1, 2): 96, (1, 1): 52, (2, 2): 54, (2, 3): 48, (3, 3): 4, (1, 3): 48}
+   [PASS] no Euclidean coupling touches the hypercube diagonal (Theorem 3.1)
+   [PASS] reflection asymmetry max|w(D,D',v) - w(D,D',-v)| is exactly 0
+   [PASS] every coupling equals the published 302-entry table (same D, D', v and weight): table: regge_4d_kuhn_coupling_table_20260903.json
+
+Appendix A: the Lorentzian Kuhn cell and its symbol (kappa = 1): 28 checks, 0 failed

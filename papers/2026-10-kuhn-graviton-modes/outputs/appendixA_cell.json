@@ -1,0 +1,151 @@
+{
+ "title": "Appendix A: the Lorentzian Kuhn cell and its symbol (kappa = 1)",
+ "checks": [
+  {
+   "check": "g_L^{-1} = I - J/3 (eq:direct-metric)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "every edge D has squared interval n(1 - n), n = number of ones",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the four axis edges are null",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "chain Gram matrix G_ij = min(i,j) - ij (Appendix A)",
+   "pass": true,
+   "detail": "[[0, -1, -2, -3], [-1, -2, -4, -6], [-2, -4, -6, -9], [-3, -6, -9, -12]]"
+  },
+  {
+   "check": "every triangle is timelike: det G_h < 0",
+   "pass": true,
+   "detail": "{(0, 1, 2): -1, (0, 1, 3): -4, (0, 1, 4): -9, (0, 2, 3): -4, (0, 2, 4): -12, (0, 3, 4): -9, (1, 2, 3): -1, (1, 2, 4): -4, (1, 3, 4): -4, (2, 3, 4): -1}"
+  },
+  {
+   "check": "all five tetrahedra are nondegenerate",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "every hinge normal plane is spacelike (positive-definite normal Gram)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "end triangles 012 and 234 of the chain have angle pi/6 (Euclidean pi/4)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "middle triangle 123 has angle 2 pi/3 (Euclidean pi/2)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "angles around each of the 50 hinge classes sum to 2 pi (zero deficits)",
+   "pass": true,
+   "detail": "simplices per hinge: {6: 20, 4: 30}"
+  },
+  {
+   "check": "Euclidean check: the same 50 sums are 2 pi at kappa = 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "single-simplex Schlaefli identity sum_h A_h d(theta_h) = 0 at the flat simplex",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the cell is symmetric (mixed second derivatives commute)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "R = (sqrt 3/2) C is rational",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "32R from the geometry equals the printed matrix (eq:lorentz-cell), all 100 entries",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "each of the 24 simplices, computed from its own coordinates, has the same cell in slot order",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "assembly from the printed cell rule 2R equals the per-simplex geometric assembly",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "coefficients of v and -v agree, so every entry is a cosine sum (eq:lorentz-assembly)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "M_L is symmetric",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the printed cosine formula reproduces every entry of the exponential assembly",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "gauge identity M_L(q) g_xi(q) = 0 for all q, xi = e_1..e_4 (lattice Bianchi)",
+   "pass": true,
+   "detail": "{'xi=e1': True, 'xi=e2': True, 'xi=e3': True, 'xi=e4': True}"
+  },
+  {
+   "check": "unlike the Euclidean case, the hypercube-diagonal row of M_L is not zero",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "302 nonzero couplings (Appendix B)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "weight census -3/2 (4), -1 (6), -1/2 (4), 1/2 (48), 1/4 (96), -1/4 (144)",
+   "pass": true,
+   "detail": "{Fraction(1, 4): 96, Fraction(-1, 4): 144, Fraction(-1, 1): 6, Fraction(1, 2): 48, Fraction(-1, 2): 4, Fraction(-3, 2): 4}"
+  },
+  {
+   "check": "census by squared lengths (1,1):52 (1,2):96 (1,3):48 (2,2):54 (2,3):48 (3,3):4",
+   "pass": true,
+   "detail": "{(1, 2): 96, (1, 1): 52, (2, 2): 54, (2, 3): 48, (3, 3): 4, (1, 3): 48}"
+  },
+  {
+   "check": "no Euclidean coupling touches the hypercube diagonal (Theorem 3.1)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "reflection asymmetry max|w(D,D',v) - w(D,D',-v)| is exactly 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "every coupling equals the published 302-entry table (same D, D', v and weight)",
+   "pass": true,
+   "detail": "table: regge_4d_kuhn_coupling_table_20260903.json"
+  }
+ ],
+ "values": {
+  "det G (four-simplex)": "-3",
+  "cell C entry (01,01) = 2R/sqrt3": "sqrt(3)/24",
+  "nonzero couplings (D, D', v) of M_L": "631",
+  "nonzero Euclidean couplings from this code": "302"
+ }
+}

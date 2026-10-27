@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Computational supplement to Graviton Modes on the Kuhn Lattice: Euclidean Continuation and Lorentzian Propagation"
+type: software
+authors:
+  - family-names: Washburn
+    given-names: Jonathan
+    email: jon@recognitionphysics.org
+    affiliation: "Recognition Physics Institute, Austin, Texas"
+  - family-names: Beltracchi
+    given-names: Philip
+    email: pbeltracchi@recognitionphysics.org
+    affiliation: "Recognition Physics Institute, Austin, Texas"
+date-released: 2026-10-27
+version: "2026.10.27"
+license: MIT
+repository-code: "https://github.com/jonwashburn/computations"
+preferred-citation:
+  type: article
+  title: "Graviton Modes on the Kuhn Lattice: Euclidean Continuation and Lorentzian Propagation"
+  authors:
+    - family-names: Washburn
+      given-names: Jonathan
+      affiliation: "Recognition Physics Institute, Austin, Texas"
+    - family-names: Beltracchi
+      given-names: Philip
+      affiliation: "Recognition Physics Institute, Austin, Texas"
+  year: 2026
+  notes: "Working draft, October 2026."

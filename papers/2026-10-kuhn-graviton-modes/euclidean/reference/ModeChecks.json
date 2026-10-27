@@ -1,0 +1,11 @@
+{
+  "configurations": 156,
+  "mode_equation_checks": 312,
+  "max_independent_midpoint_residual": 1.0053376627138076e-16,
+  "max_constraint_residual": 6.71456686933188e-16,
+  "min_seven_column_independence_singular_value": 0.39800125779549306,
+  "min_corrupted_field_residual": 0.034134892143826014,
+  "max_spatial_conjugate_pair_error": 0,
+  "face_zone_plus_constraint_repaired": true,
+  "scope": "Numerical full-symbol verification plus non-gauge independence; construction is derived in MODE_CONSTRUCTION.txt."
+}

@@ -1,0 +1,56 @@
+{
+ "started_utc": "2026-10-27T14:28:55Z",
+ "python": "3.10.12",
+ "sympy": "1.12",
+ "mpmath": "1.2.1",
+ "platform": "Linux-6.8.0-1046-nvidia-x86_64-with-glibc2.35",
+ "programs": {
+  "appendixA_cell": {
+   "exit_code": 0,
+   "seconds": 12.0,
+   "checks": 28,
+   "failed": 0,
+   "failed_checks": []
+  },
+  "section6_paired_direction": {
+   "exit_code": 0,
+   "seconds": 17.1,
+   "checks": 43,
+   "failed": 0,
+   "failed_checks": []
+  },
+  "section7_source_constraints": {
+   "exit_code": 0,
+   "seconds": 48.2,
+   "checks": 18,
+   "failed": 0,
+   "failed_checks": []
+  },
+  "sections8_9_bound_numbers": {
+   "exit_code": 0,
+   "seconds": 0.5,
+   "checks": 66,
+   "failed": 0,
+   "failed_checks": []
+  }
+ },
+ "sha256": {
+  "lorentzian/appendixA_cell.py": "d3ac190b8d84f578b36acffa5586c7f6da0a67957f7b2dc80e6bb8f389dd50fb",
+  "lorentzian/section6_paired_direction.py": "67130fdc76ff6e832e50f5c9ebaa7e073b776e715cb4a28b04d066c22cd61df8",
+  "lorentzian/section7_source_constraints.py": "f4cf4d1a75a5a6a7bbba4967552d900e43aeabdb15d11bf4f5bc624fe10ad59d",
+  "lorentzian/sections8_9_bound_numbers.py": "a5c6b6ddb287e2d59752035c9189cbb254712a747cefd29fa1d873c8cf6c61ad",
+  "lorentzian/kuhn_lorentz_geometry.py": "7d99bc0a1f4954ca3992bd8eb636d5b8dad2940ece95c506dcebb371cb99f83a",
+  "lorentzian/kuhn_lorentz_symbol.py": "984fb0e8263009f54e03cce7c87a4196dcb40d034799b54cb32aa79e25a77cca",
+  "lorentzian/report.py": "9479c79fd005951ef24262ab89dfcd0329ce09ee6c26e474f68cc334cdf263ee",
+  "lorentzian/run_all.py": "233e0ed7cc1f692a0d888e3c0d2a8caac3c6c25d2cbdcfb4b50de9bac2dceda1",
+  "outputs/appendixA_cell.json": "3999318940e36ec0b6cb42d76860913285d9fc5b17bf28eb5a8f5adf16835b0f",
+  "outputs/appendixA_cell.txt": "9e2d91b0481a64a1817aab5c2bccff92952f1ef6e82d6baa37714597645197b6",
+  "outputs/section6_paired_direction.json": "03f7e8ba2bcfb2440d9b01a183c537d242424806c4ce97e1597e6326d44107b1",
+  "outputs/section6_paired_direction.txt": "dd86fe69ab47596a0ef8611e9ac3613be6ad0123e3f2c3c4d3dcc6c77348c99f",
+  "outputs/section7_source_constraints.json": "0f7603cce92928b7eb17e0dc14508308c6b3152813987900f8272725e3512fd9",
+  "outputs/section7_source_constraints.txt": "ee2df6dbef021f10428cef622a1a40271c3967c4010822bb79333e898c0e8ea3",
+  "outputs/sections8_9_bound_numbers.json": "8eb8c80d87da187018c640ab119d077c035e32b83cf6bc4074931ebb84209869",
+  "outputs/sections8_9_bound_numbers.txt": "318342ca9b514c48777aef82d959b7de3b6ea1e5777a351d4343bed26f60d1f9"
+ },
+ "finished_utc": "2026-10-27T14:30:12Z"
+}

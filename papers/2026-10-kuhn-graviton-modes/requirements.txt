@@ -1,0 +1,4 @@
+# Reference run: Python 3.10.12, SymPy 1.12, mpmath 1.2.1 (NumPy 1.21.5 for euclidean/).
+sympy>=1.12,<2
+mpmath>=1.2.1,<2
+numpy>=1.21.5,<3

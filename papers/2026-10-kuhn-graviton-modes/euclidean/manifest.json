@@ -1,0 +1,104 @@
+{
+  "release": "2026.09.16.1",
+  "title": "Lattice Graviton Dispersion: Scientific Software",
+  "paper": "Lattice Graviton Dispersion on the Kuhn Triangulation, proposed 15 September 2026 revision",
+  "source_policy": "Original paper scripts preserved byte-for-byte. Public companions add the live explorer, finite-momentum edge modes, an independent mode audit and reproduction entry points.",
+  "reference_results": "Stored outputs from 15 and 16 September, separate from fresh browser results.",
+  "files": [
+    {
+      "path": "README.txt",
+      "bytes": 6646,
+      "sha256": "2c81dbad8675a6607f9f3a06f778349eb2fe02182d4370bfa6734eb1b647ad1e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 125,
+      "sha256": "b714ef71bc05b0cf71a0faecb885af5f72b1a5145c331bbf68298275a0fd7d96"
+    },
+    {
+      "path": "run_checks.py",
+      "bytes": 939,
+      "sha256": "5ae3da667b85a350b3237edc3f62358e03a8d21ab19c95c6da22df6ce6dfbfa0"
+    },
+    {
+      "path": "explorer.py",
+      "bytes": 2436,
+      "sha256": "f849175c2825f6229fac44fa29da3f682ee24529a604d4a9c02ae7266ae7b875"
+    },
+    {
+      "path": "lattice_modes.py",
+      "bytes": 4956,
+      "sha256": "92323c4c23efb121d67a0331a93f18ca5ace51dc558ebfb427550c770b3dd111"
+    },
+    {
+      "path": "verify_modes.py",
+      "bytes": 4720,
+      "sha256": "6d1ea3e1c4d311daf79b21307e1e25de0cb533cd539ec52347b8e8b066649632"
+    },
+    {
+      "path": "MODE_CONSTRUCTION.txt",
+      "bytes": 4888,
+      "sha256": "0076665794ab38217427d2ecd75602ed4b6223c28ec87954ef511750cc5ebb3d"
+    },
+    {
+      "path": "VerifyPhilipDraft.py",
+      "bytes": 4991,
+      "sha256": "517714498bf3a9337e664156bdefeca6fabec4f1d1ed9f60264c2bf01004cd33"
+    },
+    {
+      "path": "VerifyQuartic.py",
+      "bytes": 1465,
+      "sha256": "c28ac3580e898fde6695fc8e6079d3934de5b808417dcd589e171b2bde43e7f9"
+    },
+    {
+      "path": "audit_geometry.py",
+      "bytes": 3498,
+      "sha256": "4044e88694907907fda39a7e2da4334a52d991687c81938c22f85ef72328e70b"
+    },
+    {
+      "path": "original/regge_4d_exact_hessian_symbol_20260721.py",
+      "bytes": 18461,
+      "sha256": "d1eba8e1ea686dd4adbead9d250163088f40e55493faf92f0445381de82e74de"
+    },
+    {
+      "path": "original/regge_4d_exact_m2_table_20260721.py",
+      "bytes": 24035,
+      "sha256": "f90241535d2121965e1c27909becbcb95260ba0ce8487267818eebdc5b539a10"
+    },
+    {
+      "path": "original/regge_4d_exact_quadratic_identity_20260904.py",
+      "bytes": 4257,
+      "sha256": "f09009580365cd658f9a00ccefa9eb6b4c455adfe7b88246218cf588967be97b"
+    },
+    {
+      "path": "original/regge_4d_gauge_discrimination_probe_20260721.py",
+      "bytes": 16684,
+      "sha256": "126a843a4a6881dc71b272bf1d17cf349a31ff58ff9bc3bdb3b2468eab4cf3bd"
+    },
+    {
+      "path": "original/regge_4d_quartic_tt_dispersion_20260903.py",
+      "bytes": 46029,
+      "sha256": "4288c4f1159b4bd3f256950610c9c8f23dbe6d4cf38bacb47485dd8d0f73dfe2"
+    },
+    {
+      "path": "reference/ModeChecks.json",
+      "bytes": 515,
+      "sha256": "240cbb69f87ee10da42db72928620c92be0f1f3976b581ee232c0c5131b769d4"
+    },
+    {
+      "path": "reference/PhilipExactChecks.json",
+      "bytes": 2069,
+      "sha256": "db5a0e3e9f538be60d1b7a7c0a47f39d1ca1e49afad9369b18de4847f7d3dea9"
+    },
+    {
+      "path": "reference/QuarticSpectrum.json",
+      "bytes": 873,
+      "sha256": "388a78645d4cc40951973f96c753c58f54f20447b605ae4a17b62446808b7191"
+    },
+    {
+      "path": "reference/regge_4d_kuhn_coupling_table_20260903.json",
+      "bytes": 73826,
+      "sha256": "c2faba52960f1cf4de7b8bb4c2e0da599b2335dc6b7f76743ed90a95157e1b31"
+    }
+  ]
+}

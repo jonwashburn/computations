@@ -1,0 +1,96 @@
+{
+ "title": "Section 7: scalar sources and the null-space conditions (Euclidean)",
+ "checks": [
+  {
+   "check": "G_ij = min(i,j)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "E = G^{-1} is the printed tridiagonal matrix",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "V_sigma = sqrt(det G)/24 = 1/24",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the same G holds on all 24 chain simplices",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "phi is lattice harmonic (eq:scalar-field-equation with identity links)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "B_sigma on the simplex 0,e1,e1+e2,... is the printed matrix",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "delta G for the hypercube diagonal is the printed matrix",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "eq:scalar-edge-variation agrees with direct differentiation of S_m on all 24 simplices",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "dS_m/da_{1111} = -kappa_m lambda^2/12 summed over the 24 simplices of the hypercube",
+   "pass": true,
+   "detail": "-1/12"
+  },
+  {
+   "check": "dA_h/da_{1111} = 0 for every hinge (Theorem 3.1), so the gravitational side is 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "phi is lattice harmonic",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "120 simplices contain p",
+   "pass": true,
+   "detail": "120"
+  },
+  {
+   "check": "g^T J = -18 kappa_m lambda^2 (eq:obstruction-gauge)",
+   "pass": true,
+   "detail": "-18"
+  },
+  {
+   "check": "the same contraction vanishes at the origin",
+   "pass": true,
+   "detail": "0"
+  },
+  {
+   "check": "every hypercube diagonal at p has D.xi = 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "moving the vertex in the embedding and differentiating S_m gives the same -18",
+   "pass": true,
+   "detail": "-18"
+  },
+  {
+   "check": "(H g)_e = 0 on every edge e near p: vertex displacements are null vectors",
+   "pass": true,
+   "detail": "180 edges"
+  },
+  {
+   "check": "the hypercube-diagonal row and column of every Euclidean cell vanish: H n_1111 = 0",
+   "pass": true,
+   "detail": ""
+  }
+ ],
+ "values": {}
+}

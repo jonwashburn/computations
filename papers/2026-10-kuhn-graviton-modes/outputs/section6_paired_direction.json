@@ -1,0 +1,234 @@
+{
+ "title": "Section 6: direct Lorentzian propagation along the paired direction (kappa = 1)",
+ "checks": [
+  {
+   "check": "g_L(tau, tau) = -1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "g_L(sigma, sigma) = 1",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "g_L(tau, sigma) = 0",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "K = q(sigma) = 2t",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "a omega = q(tau) = 2z/sqrt3",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "g_L^{-1}(q, q) = 4t^2 - (4/3) z^2, so the continuum null cone is z = sqrt3 t",
+   "pass": true,
+   "detail": "4*t**2 - 4*z**2/3"
+  },
+  {
+   "check": "phase speed (a omega)/K = z/(sqrt3 t)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "q vanishes on the g_L-orthogonal complement of tau and sigma",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "c is supported on the four mixed face diagonals with values +2, -2, -2, +2",
+   "pass": true,
+   "detail": "{'e13': 2, 'e14': -2, 'e23': -2, 'e24': 2}"
+  },
+  {
+   "check": "c is odd under the swap 1<->2 and under the swap 3<->4",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the swap 1<->2 commutes with M_L(x,x,y,y)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the swap 3<->4 commutes with M_L(x,x,y,y)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "the common odd sector of the two swaps is one-dimensional",
+   "pass": true,
+   "detail": "sector dimensions (even/odd under 1<->2, 3<->4): {'(1, 1)': 8, '(1, -1)': 3, '(-1, 1)': 3, '(-1, -1)': 1}"
+  },
+  {
+   "check": "M_L(x,x,y,y) c = s_x(x,y) c with s_x = -2 + (3/2)cos x + (3/2)cos y - cos(x+y) (eq:cross-scalar)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "contraction coefficients -2, 3/2, 3/2, -1 at frequencies 0, y, x, x+y and nothing else",
+   "pass": true,
+   "detail": "{'cos((0 x + 0 y)/2)': '-2', 'cos((0 x + 2 y)/2)': '3/2', 'cos((2 x + 0 y)/2)': '3/2', 'cos((2 x + 2 y)/2)': '-1'}"
+  },
+  {
+   "check": "s_x(z+t, z-t) = -(2cos^2 z - 3 cos z cos t + 1), so eq:cross-direct",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "2cos^2 z - 3 cos z cos t + 1 = 2 G_x(U, V), G_x = 4V^2 - V + 3U - 6UV (eq:cross-poly)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "dG_x/dV at the origin is -1 (implicit-function theorem applies)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "t^2 term vanishes: the branch leaves the origin along the null cone",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "v_x(K) = 1 + (5/24) K^2 + o(K^2) (eq:cross-speed)",
+   "pass": true,
+   "detail": "5/24"
+  },
+  {
+   "check": "the even sector is spanned by 8 orbit indicators: 2 axis orbits and the 6 printed orbits",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "B = O^T M_L O from the geometry equals the printed block (eq:plus-block), all 36 entries",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "within each orbit, every row of M_L O is the same (so B w = 0 kills each non-axis residual)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "g_xi^T M_L O = 0 on the slice for xi = e_1..e_4 (the identity that recovers the axis rows)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "det B(z+t, z-t) = -36 sin^2((z+t)/2) sin^2((z-t)/2) P(cos z, cos t) (eq:plus-det)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "P(1 - 2V, 1 - 2U) = G_+(U, V) (eq:plus-poly)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "dG_+/dV at the origin is 2",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "dG_+/dU at the origin is -6, so V = 3U to first order (the null cone)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "t^2 term vanishes on the null cone",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "v_+(K) = 1 - (59/24) K^2 + o(K^2) (eq:paired-split)",
+   "pass": true,
+   "detail": "-59/24"
+  },
+  {
+   "check": "v_x - v_+ = (8/3) K^2 + o(K^2)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "B(0, y) and B(x, 0) annihilate these gauge vectors: the sin^2 prefactors are gauge zeros",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "cross: Richardson value from K = 0.02, 0.01 agrees with 5/24 to 1e-4",
+   "pass": true,
+   "detail": "0.208333322648"
+  },
+  {
+   "check": "plus: Richardson value from K = 0.02, 0.01 agrees with -59/24 to 1e-4",
+   "pass": true,
+   "detail": "-2.4583211315"
+  },
+  {
+   "check": "plus: lifted vector solves all 15 rows of M_L c = 0 (non-axis rows 2.85e-51, axis rows 1.25e-50)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "plus: M_L has exactly 5 null directions there (4 gauge + this mode)",
+   "pass": true,
+   "detail": "relative singular values: smallest six ['8.33e-53', '2.96e-52', '7.44e-52', '1.28e-51', '3.96e-51', '6.01e-5']"
+  },
+  {
+   "check": "plus: the mode is not a gauge vector (smallest singular value of [g_1..g_4, c] is 0.10055)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "cross: lifted vector solves all 15 rows of M_L c = 0 (non-axis rows 4.45e-52, axis rows 0.0)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "cross: M_L has exactly 5 null directions there (4 gauge + this mode)",
+   "pass": true,
+   "detail": "relative singular values: smallest six ['5.64e-52', '7.09e-52', '7.69e-52', '8.73e-52', '1.49e-51', '0.000145']"
+  },
+  {
+   "check": "cross: the mode is not a gauge vector (smallest singular value of [g_1..g_4, c] is 0.70105)",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "axis time: Lap = 0 at order K^2 on the cone",
+   "pass": true,
+   "detail": ""
+  },
+  {
+   "check": "axis time: v_E = 1 - (1 + A) K^2/24, A = sum n_j^4, same for both polarizations",
+   "pass": true,
+   "detail": "-n1**4/12 - n1**2*n2**2/12 + n1**2/12 - n2**4/12 + n2**2/12 - 1/12"
+  },
+  {
+   "check": "hypercube time with sigma: v_E = 1 + K^2/24 for both modes",
+   "pass": true,
+   "detail": "1/24"
+  }
+ ],
+ "values": {
+  "g_L((1,1,1,1), (1,1,1,1)) (timelike; hence the 2 sqrt3 normalization)": "-12",
+  "t^4 coefficient of G_x on z = sqrt3 t (1 + alpha t^2)": "5/4 - 3*alpha/2",
+  "orbit sizes (axis orbits (1,0), (0,1) first)": "{(1, 0): 2, (0, 1): 2, (0, 2): 1, (1, 1): 4, (1, 2): 2, (2, 0): 1, (2, 1): 2, (2, 2): 1}",
+  "det(a^2 b^2 B) factored": "-9*a**4*b**4*(a - 1)**2*(a + 1)**2*(b - 1)**2*(b + 1)**2*(8*a**12*b**12 - 4*a**12*b**10 - 4*a**12*b**8 + a**12*b**6 - 4*a**10*b**12 - 44*a**10*b**10 + 61*a**10*b**8 - 10*a**10*b**6 + a**10*b**4 - 4*a**8*b**12 + 61*a**8*b**10 - 36*a**8*b**8 - 83*a**8*b**6 + 44*a**8*b**4 + a**8*b**2 + a**6*b**12 - 10*a**6*b**10 - 83*a**6*b**8 + 208*a**6*b**6 - 83*a**6*b**4 - 10*a**6*b**2 + a**6 + a**4*b**10 + 44*a**4*b**8 - 83*a**4*b**6 - 36*a**4*b**4 + 61*a**4*b**2 - 4*a**4 + a**2*b**8 - 10*a**2*b**6 + 61*a**2*b**4 - 44*a**2*b**2 - 4*a**2 + b**6 - 4*b**4 - 4*b**2 + 8)/128",
+  "G_+(0, V) factored (t = 0: only the root V = 0 is near the origin)": "2*V*(4*V - 1)*(4*V**2 - 6*V + 1)*(32*V**2 - 32*V - 1)",
+  "t^4 coefficient of G_+ on z = sqrt3 t (1 + alpha t^2)": "3*alpha + 59/2",
+  "cross phase speed at K = 0.02": "1.000083366433761068521651",
+  "cross phase speed at K = 0.01": "1.000020835401308648593331",
+  "cross phase speed at K = 0.1": "1.002104281356629293117064",
+  "plus phase speed at K = 0.02": "0.9990204179757553834846055",
+  "plus phase speed at K = 0.01": "0.9997544020386219391984319",
+  "plus phase speed at K = 0.1": "0.9775056312070330700185339"
+ }
+}

@@ -1,0 +1,82 @@
+==============================================================================
+Section 6: direct Lorentzian propagation along the paired direction (kappa = 1)
+==============================================================================
+
+-- 6.1  Clock, spatial direction and the paired covector (eq:paired-clock) ---
+   [PASS] g_L(tau, tau) = -1
+   [PASS] g_L(sigma, sigma) = 1
+   [PASS] g_L(tau, sigma) = 0
+   g_L((1,1,1,1), (1,1,1,1)) (timelike; hence the 2 sqrt3 normalization) = -12
+   [PASS] K = q(sigma) = 2t
+   [PASS] a omega = q(tau) = 2z/sqrt3
+   [PASS] g_L^{-1}(q, q) = 4t^2 - (4/3) z^2, so the continuum null cone is z = sqrt3 t: 4*t**2 - 4*z**2/3
+   [PASS] phase speed (a omega)/K = z/(sqrt3 t)
+   [PASS] q vanishes on the g_L-orthogonal complement of tau and sigma
+
+-- 6.2  The exact cross-polarization branch (Proposition 6.1) ----------------
+   [PASS] c is supported on the four mixed face diagonals with values +2, -2, -2, +2: {'e13': 2, 'e14': -2, 'e23': -2, 'e24': 2}
+   [PASS] c is odd under the swap 1<->2 and under the swap 3<->4
+   [PASS] the swap 1<->2 commutes with M_L(x,x,y,y)
+   [PASS] the swap 3<->4 commutes with M_L(x,x,y,y)
+   [PASS] the common odd sector of the two swaps is one-dimensional: sector dimensions (even/odd under 1<->2, 3<->4): {'(1, 1)': 8, '(1, -1)': 3, '(-1, 1)': 3, '(-1, -1)': 1}
+   [PASS] M_L(x,x,y,y) c = s_x(x,y) c with s_x = -2 + (3/2)cos x + (3/2)cos y - cos(x+y) (eq:cross-scalar)
+   [PASS] contraction coefficients -2, 3/2, 3/2, -1 at frequencies 0, y, x, x+y and nothing else: {'cos((0 x + 0 y)/2)': '-2', 'cos((0 x + 2 y)/2)': '3/2', 'cos((2 x + 0 y)/2)': '3/2', 'cos((2 x + 2 y)/2)': '-1'}
+   [PASS] s_x(z+t, z-t) = -(2cos^2 z - 3 cos z cos t + 1), so eq:cross-direct
+   [PASS] 2cos^2 z - 3 cos z cos t + 1 = 2 G_x(U, V), G_x = 4V^2 - V + 3U - 6UV (eq:cross-poly)
+   [PASS] dG_x/dV at the origin is -1 (implicit-function theorem applies)
+   [PASS] t^2 term vanishes: the branch leaves the origin along the null cone
+   t^4 coefficient of G_x on z = sqrt3 t (1 + alpha t^2) = 5/4 - 3*alpha/2
+   [PASS] v_x(K) = 1 + (5/24) K^2 + o(K^2) (eq:cross-speed): 5/24
+
+-- 6.3  The plus polarization: orbit block, determinant, branch (Appendix A) -
+   orbit sizes (axis orbits (1,0), (0,1) first) = {(1, 0): 2, (0, 1): 2, (0, 2): 1, (1, 1): 4, (1, 2): 2, (2, 0): 1, (2, 1): 2, (2, 2): 1}
+   [PASS] the even sector is spanned by 8 orbit indicators: 2 axis orbits and the 6 printed orbits
+   [PASS] B = O^T M_L O from the geometry equals the printed block (eq:plus-block), all 36 entries
+      row 1: -2; -6 C11; 2 C10; -1 C22; 1 C21; 1/2 + -1/2 C20
+      row 2: -6 C11; -8 + -6 C02 + -6 C20 + -4 C22; 4 C01 + 2 C21; -6 C11; 4 C10 + 2 C12; 2 C1-1 + -2 C11
+      row 3: 2 C10; 4 C01 + 2 C21; 1 C20; 1 C12; 2 C11; -3 C10
+      row 4: -1 C22; -6 C11; 1 C12; -2; 2 C01; 1/2 + -1/2 C02
+      row 5: 1 C21; 4 C10 + 2 C12; 2 C11; 2 C01; 1 C02; -3 C01
+      row 6: 1/2 + -1/2 C20; 2 C1-1 + -2 C11; -3 C10; 1/2 + -1/2 C02; -3 C01; 3
+   [PASS] within each orbit, every row of M_L O is the same (so B w = 0 kills each non-axis residual)
+   [PASS] g_xi^T M_L O = 0 on the slice for xi = e_1..e_4 (the identity that recovers the axis rows)
+   [PASS] det B(z+t, z-t) = -36 sin^2((z+t)/2) sin^2((z-t)/2) P(cos z, cos t) (eq:plus-det)
+   det(a^2 b^2 B) factored = -9*a**4*b**4*(a - 1)**2*(a + 1)**2*(b - 1)**2*(b + 1)**2*(8*a**12*b**12 - 4*a**12*b**10 - 4*a**12*b**8 + a**12*b**6 - 4*a**10*b**12 - 44*a**10*b**10 + 61*a**10*b**8 - 10*a**10*b**6 + a**10*b**4 - 4*a**8*b**12 + 61*a**8*b**10 - 36*a**8*b**8 - 83*a**8*b**6 + 44*a**8*b**4 + a**8*b**2 + a**6*b**12 - 10*a**6*b**10 - 83*a**6*b**8 + 208*a**6*b**6 - 83*a**6*b**4 - 10*a**6*b**2 + a**6 + a**4*b**10 + 44*a**4*b**8 - 83*a**4*b**6 - 36*a**4*b**4 + 61*a**4*b**2 - 4*a**4 + a**2*b**8 - 10*a**2*b**6 + 61*a**2*b**4 - 44*a**2*b**2 - 4*a**2 + b**6 - 4*b**4 - 4*b**2 + 8)/128
+   [PASS] P(1 - 2V, 1 - 2U) = G_+(U, V) (eq:plus-poly)
+   [PASS] dG_+/dV at the origin is 2
+   [PASS] dG_+/dU at the origin is -6, so V = 3U to first order (the null cone)
+   G_+(0, V) factored (t = 0: only the root V = 0 is near the origin) = 2*V*(4*V - 1)*(4*V**2 - 6*V + 1)*(32*V**2 - 32*V - 1)
+   [PASS] t^2 term vanishes on the null cone
+   t^4 coefficient of G_+ on z = sqrt3 t (1 + alpha t^2) = 3*alpha + 59/2
+   [PASS] v_+(K) = 1 - (59/24) K^2 + o(K^2) (eq:paired-split): -59/24
+   [PASS] v_x - v_+ = (8/3) K^2 + o(K^2)
+   Prefactor check: at x = 0, xi = (1,1,0,0) gives a pure-gauge vector with zero axis
+   components, constant on orbits; at y = 0 the same holds for xi = (0,0,1,1).
+   [PASS] B(0, y) and B(x, 0) annihilate these gauge vectors: the sin^2 prefactors are gauge zeros
+
+-- Branches at finite K (mpmath, 50 digits): coefficients, full kernels, nongauge test 
+   cross: K = 0.02   v = 1.0000833664337610685   (v - 1)/K^2 = 0.208416084403
+   cross: K = 0.01   v = 1.0000208354013086486   (v - 1)/K^2 = 0.208354013086
+   cross: K = 0.1   v = 1.0021042813566292931   (v - 1)/K^2 = 0.210428135663
+   [PASS] cross: Richardson value from K = 0.02, 0.01 agrees with 5/24 to 1e-4: 0.208333322648
+   plus: K = 0.02   v = 0.99902041797575538348   (v - 1)/K^2 = -2.44895506061
+   plus: K = 0.01   v = 0.9997544020386219392   (v - 1)/K^2 = -2.45597961378
+   plus: K = 0.1   v = 0.97750563120703307002   (v - 1)/K^2 = -2.2494368793
+   [PASS] plus: Richardson value from K = 0.02, 0.01 agrees with -59/24 to 1e-4: -2.4583211315
+   plus: singular values of B at the branch point: ['29.403', '8.5144', '2.012', '0.006701', '0.00036237', '8.2045e-52']
+   [PASS] plus: lifted vector solves all 15 rows of M_L c = 0 (non-axis rows 2.85e-51, axis rows 1.25e-50)
+   [PASS] plus: M_L has exactly 5 null directions there (4 gauge + this mode): relative singular values: smallest six ['8.33e-53', '2.96e-52', '7.44e-52', '1.28e-51', '3.96e-51', '6.01e-5']
+   [PASS] plus: the mode is not a gauge vector (smallest singular value of [g_1..g_4, c] is 0.10055)
+   plus: sin(x/2) = 0.067276382, sin(y/2) = 0.017326368 (both nonzero, as the reconstruction requires)
+   [PASS] cross: lifted vector solves all 15 rows of M_L c = 0 (non-axis rows 4.45e-52, axis rows 0.0)
+   [PASS] cross: M_L has exactly 5 null directions there (4 gauge + this mode): relative singular values: smallest six ['5.64e-52', '7.09e-52', '7.69e-52', '8.73e-52', '1.49e-51', '0.000145']
+   [PASS] cross: the mode is not a gauge vector (smallest singular value of [g_1..g_4, c] is 0.70105)
+   cross: sin(x/2) = 0.068339083, sin(y/2) = 0.018391351 (both nonzero, as the reconstruction requires)
+
+-- 6.3  Euclidean continuation for comparison (the exact Laplacian branch of Section 4) 
+   [PASS] axis time: Lap = 0 at order K^2 on the cone
+   [PASS] axis time: v_E = 1 - (1 + A) K^2/24, A = sum n_j^4, same for both polarizations: -n1**4/12 - n1**2*n2**2/12 + n1**2/12 - n2**4/12 + n2**2/12 - 1/12
+   [PASS] hypercube time with sigma: v_E = 1 + K^2/24 for both modes: 1/24
+   Neither Euclidean coefficient splits the polarizations; the Lorentzian ones are +5/24 and -59/24.
+
+Section 6: direct Lorentzian propagation along the paired direction (kappa = 1): 43 checks, 0 failed
