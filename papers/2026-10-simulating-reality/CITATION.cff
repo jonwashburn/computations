@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the page below."
+title: "Computational supplement to Simulating Reality"
+type: software
+authors:
+  - name: "Recognition Physics Institute"
+    city: Austin
+    region: Texas
+    country: US
+    email: jon@recognitionphysics.org
+    website: "https://recognitionphysics.org"
+date-released: 2026-10-28
+version: "2026.10.28"
+license: MIT
+repository-code: "https://github.com/jonwashburn/computations"
+preferred-citation:
+  type: website
+  title: "Simulating Reality"
+  authors:
+    - name: "Recognition Physics Institute"
+      city: Austin
+      region: Texas
+      country: US
+  url: "https://recognitionphysics.org/simulation/"
+  year: 2026
+  month: 10

@@ -1,0 +1,6 @@
+$ python3 lawful_histories.py page_files/simulation-hero-cloud-28-Oct-2026-01-00-UTC.csv
+70525 rows over ticks 0 to 24: all agree with the closed form
+exit 0
+$ python3 first_pass.py page_files/simulation-s3-chart-28-Oct-2026-01-00-UTC.csv
+24 rows: all agree
+exit 0

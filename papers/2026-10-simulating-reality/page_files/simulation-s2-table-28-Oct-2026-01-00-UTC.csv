@@ -1,0 +1,15 @@
+# Stage 2 · Every lawful history, carried at once · Proved
+# Computed in your browser on 28 Oct 2026, 01:00 UTC; data as of 28 Oct 2026, 01:00 UTC.
+# Lawful histories: At every tick each lawful history continues in six ways: one entry, a debit or a credit, on one of the three accounts. So n ticks give 6ⁿ lawful histories, and we prove that the histories reaching each record add up to that number.
+# Distinct records: A record keeps how many entries of each of the six kinds a history made and forgets their order, so the records after n entries are the ways to share n among six kinds: C(n + 5, 5).
+# Balances reached: Your browser carries, from tick to tick, how many histories end at every combination of balances (x, y, z): after the next tick each combination holds the sum of what its six neighbours held, one step away on one account. A combination is reached when its number is above zero.
+# Back in balance: The histories after which every account is back in balance. After an odd number of entries there are none; after 2j entries we prove there are the sum over a + b + c = j of (2j)!/(a!² b!² c!²).
+Ticks,Lawful histories,Distinct records,Balances reached,Back in balance
+1,6,6,6,0
+2,36,21,19,6
+3,216,56,44,0
+4,1296,126,85,90
+8,1679616,1287,489,44730
+12,2176782336,6188,1469,32496156
+16,2821109907456,20349,3281,27770358330
+24,4738381338321616896,118755,10425,25780447171287900
